@@ -1,0 +1,30 @@
+{
+  "type":"module",
+  "name": "basic-client-server-streaming",
+  "version": "1.0.0",
+  "description": "Basic client-server streaming aplication",
+  "main": "gzip-send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-rprada/basic-client-server-streaming.git"
+  },
+  "keywords": [
+    "node.js",
+    "stream"
+  ],
+  "author": "David Rodriguez Prada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/david-rprada/basic-client-server-streaming/issues"
+  },
+  "homepage": "https://github.com/david-rprada/basic-client-server-streaming#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "zlib": "^1.0.5"
+  }
+}
